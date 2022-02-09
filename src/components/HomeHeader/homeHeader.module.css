@@ -1,7 +1,6 @@
 @import '../../index.css';
 
 .homeHeader {
-    /* border: 2px solid red; */
     background-color: var(--white);
 
     padding: 220px 75px 0px 75px;
@@ -9,8 +8,8 @@
 
 h1{
     font-family: var(--regular-font);
-    font-weight: 800;
-    font-size: 210px;
+    font-weight: var(--font-weight-xl);
+    font-size: var(--font-size-xl);
     letter-spacing: 0px;
 }
 
@@ -25,16 +24,16 @@ h1{
 .email {
     color: var(--dark-grey);
     font-family: var(--regular-font);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: var(--font-weight-s);
+    font-size: var(--font-size-s);
     margin-bottom: 20px;
     display: block;
 }
 
 .titleContainer {
     font-family: var(--regular-font);
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: var(--font-weight-md);
+    font-size: var(--font-size-md);
     letter-spacing: -2px;
     line-height: 50px;
     color: var(--black);
@@ -49,8 +48,8 @@ h1{
     text-align: left;
     color: var(--black);
     font-family: var(--regular-font);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: var(--font-weight-s);
+    font-size: var(--font-size-s);
     line-height: 26px;
 }
 
@@ -92,4 +91,97 @@ h1{
     height: 4px;
     margin-top: 84px;
     background-color: var(--black);
+}
+
+@media screen and (max-width: 1400px) {
+    .detailsContainer{
+        margin-top: 100px;
+    }
+
+    .detailsContainerRight{
+        margin-right: 90px;
+    }
+
+    .descriptionContainer{
+        margin-right: 60px;
+    }
+
+    .titleContainer{
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .detailsContainer{
+        margin-top: 80px;
+    }
+
+    .detailsContainerRight{
+        margin-right: 50px;
+    }
+
+    .descriptionContainer{
+        margin-right: 40px;
+        line-height: 20px;
+    }
+
+    .titleContainer{
+        line-height: 30px;
+    }   
+}
+
+@media screen and (max-width: 844px) {
+    .descriptionContainer{
+        text-align: right;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .homeHeader {    
+        padding: 170px 60px 0px 60px;
+    }
+
+    .detailsContainer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .detailsContainerRight{
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+
+    .descriptionContainer{
+        text-align: left;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .homeHeader {    
+        padding: 80px 20px 0px 20px;
+    }
+
+    .detailsContainer{
+        margin-top: 30px;
+    }
+
+    .socialLinksContainer{
+        display: none;
+    }
+}
+
+@media screen and (max-height: 400px){
+    .homeHeader{
+        padding: 70px 20px 0px 20px;
+    }
+
+    .line {
+        margin-top: 60px;
+    }
+
+    .detailsContainer{
+        margin-top: 60px;
+    }
 }
