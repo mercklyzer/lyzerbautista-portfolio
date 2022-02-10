@@ -10,20 +10,21 @@
   --font-size-xl: 210px;
   --font-weight-xl: 800;
 
-  --font-size-l: 90px;
+  --font-size-l: 80px;
   --font-weight-l: 700;
   
-  --font-size-md: 36px;
+  --font-size-md: 30px;
   --font-weight-md: 700;
   
   --font-size-s: 18px;
-  --font-weight-s: 500;
+  --font-weight-s: 600;
   
   --font-size-xs: 16px;
   --font-weight-xs: 500;
 
   --dark-grey: #3d3d3d;
   --light-grey: #999999;
+  --light-light-grey: #cccccc;
   --white: #ffffff;
   --black: #111111;
 }
@@ -33,22 +34,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (max-width: 1600px) {
+  :root{
+    --font-size-md: 24px;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   :root{
     --font-size-xl: 190px;
-    --font-size-md: 30px;
+    --font-size-l: 70px;
+    --font-size-md: 22px;
   }
 }
 
 @media screen and (max-width: 1020px) {
   :root{
     --font-size-xl: 150px;
-    --font-size-md: 24px;
+    --font-size-md: 20px;
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 730px) {
   :root{
+    --font-size-l: 60px;
     --font-size-s: 16px;
   }
 }
@@ -56,13 +65,15 @@ body {
 @media screen and (max-width: 565px) {
   :root{
     --font-size-xl: 80px;
-    --font-size-md: 22px;
+    --font-size-l: 50px;
+    --font-size-md: 18px;
   }
 }
 
 
 @media screen and (max-width: 425px){
   :root{
+    --font-size-l: 40px;
     --font-size-xl: 70px;
   }
 }

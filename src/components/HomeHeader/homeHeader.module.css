@@ -2,7 +2,6 @@
 
 .homeHeader {
     background-color: var(--white);
-
     padding: 220px 75px 0px 75px;
 }
 
@@ -24,7 +23,7 @@ h1{
 .email {
     color: var(--dark-grey);
     font-family: var(--regular-font);
-    font-weight: var(--font-weight-s);
+    font-weight: var(--font-weight-xs);
     font-size: var(--font-size-s);
     margin-bottom: 20px;
     display: block;
@@ -48,7 +47,7 @@ h1{
     text-align: left;
     color: var(--black);
     font-family: var(--regular-font);
-    font-weight: var(--font-weight-s);
+    font-weight: var(--font-weight-xs);
     font-size: var(--font-size-s);
     line-height: 26px;
 }
