@@ -4,8 +4,11 @@ import Project from "../../components/Project/Project";
 import styles from './home.module.css'
 import gsap from 'gsap'
 import ScrollTrigger from "gsap/ScrollTrigger";
+import useWindowDimensions from '../../hooks/useWindowDimensions'
 
 const Home = props => {
+    const {width, height} = useWindowDimensions()
+
     const project1 = useRef()
     const project2 = useRef()
     const project3 = useRef()
@@ -28,8 +31,7 @@ const Home = props => {
               scrub: 1,
               snap: 1 / (projects.length - 1),
               markers: true,
-              // base vertical scrolling on how wide the container is so it feels more natural.
-              end: "+=3500",
+              end: `+=${projects.length > 2? width*(projects.length - 2) : width}`,
             }
           });
     }, [])
