@@ -1,9 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from './homeHeader.module.css'
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 const HomeHeader = props => {
+    const homeHeaderRef = useRef()
+    const overlayRef = useRef()
+
+    useEffect(() => {
+        gsap.registerPlugin(ScrollTrigger)
+
+        gsap.to(overlayRef.current, {
+            scrollTrigger: {
+                trigger: homeHeaderRef.current,
+                start: "5% top",
+
+                markers: true,
+                scrub: 1,
+            },
+            x: '-100%',
+        })
+
+        gsap.to(homeHeaderRef.current, {
+            scrollTrigger: {
+                trigger: homeHeaderRef.current,
+                start: "5% top",
+                pin:true,
+                markers: true,
+                scrub: 1,
+            },
+        })
+    }, [])
+
+
     return (
-        <section className={styles.homeHeader}>
+        <section className={`${styles.homeHeader}`} ref={homeHeaderRef}>
+            <div className={styles.overlay} ref={overlayRef}></div>
             <h1>Lyzer</h1>
             <div className={styles.detailsContainer}>
                 <div className={styles.detailsContainerLeft}>
@@ -30,6 +62,7 @@ const HomeHeader = props => {
                 
             </div>
             <div className={styles.line}></div>
+            
         </section>
     )
 }

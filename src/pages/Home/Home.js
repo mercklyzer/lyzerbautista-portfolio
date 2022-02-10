@@ -30,7 +30,7 @@ const Home = props => {
               pin: true,
               scrub: 1,
               snap: 1 / (projects.length - 1),
-              markers: true,
+            //   markers: true,
               end: `+=${projects.length > 2? width*(projects.length - 1) : width}`,
             }
           });
