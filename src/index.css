@@ -34,6 +34,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.projects-container{
+  /* display: flex; */
+  /* flex-direction: row; */
+  display: flex;
+  border: 2px solid blue;
+  height: 100vh;
+}
+
 @media screen and (max-width: 1600px) {
   :root{
     --font-size-md: 24px;

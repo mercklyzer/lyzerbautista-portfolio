@@ -1,10 +1,10 @@
-import React from "react"
+import React, { forwardRef } from "react"
 import styles from './project.module.css'
 
-const Project = props => {
-
+const Project = forwardRef( (props, ref) => {
+    
     return (
-        <section className={styles.project}>
+        <section className={styles.project} ref={ref}>
             <div className={styles.content}>
                 <div className={styles.contentLeft}>
                     <div className={styles.header}>Project</div>
@@ -14,7 +14,7 @@ const Project = props => {
                     <a href="#" className={`${styles.explore} ${styles.exploreLeft}`}>EXPLORE</a>
                 </div>
                 <div className={styles.contentRight}>
-                    <video playsinline={true} muted={true} loop={true}>
+                    <video playsInline={true} muted={true} loop={true}>
                         <source src={"https://nerby.com/wp-content/uploads/2021/01/Home_Facebook.mp4"} type="video/mp4" />
                     </video>
                     <a href="#" className={`${styles.explore} ${styles.exploreRight}`}>EXPLORE</a>
@@ -22,6 +22,6 @@ const Project = props => {
             </div>
         </section>
     )
-}
+})
 
 export default Project

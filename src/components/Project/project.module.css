@@ -3,6 +3,9 @@
 .project{
     background-color: var(--white);
     padding: 100px 75px 0px 75px;
+    overscroll-behavior: none;
+    width: 100vw;
+    border: 2px solid red;
 }
 
 .content{
