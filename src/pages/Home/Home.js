@@ -31,7 +31,8 @@ const Home = props => {
               scrub: 1,
               snap: 1 / (projects.length - 1),
               markers: true,
-              end: `+=${projects.length > 2? width*(projects.length - 2) : width}`,
+            //   end: `+=${projects.length > 2? width*(projects.length - 2) : width}`,
+              end: `.about`,
             }
           });
     }, [])
@@ -44,6 +45,7 @@ const Home = props => {
                 <Project ref={project2}/>
                 <Project ref={project3}/>
             </div>
+            <div className="about" style={{height: '50vh'}}></div>
         </div>
     )
 }
