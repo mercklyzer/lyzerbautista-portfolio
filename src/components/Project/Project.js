@@ -14,7 +14,7 @@ const Project = forwardRef( (props, ref) => {
                     <a href="#" className={`${styles.explore} ${styles.exploreLeft}`}>EXPLORE</a>
                 </div>
                 <div className={styles.contentRight}>
-                    <video playsInline={true} muted={true} loop={true}>
+                    <video playsInline={true} muted={true} autoPlay={true} loop={true}>
                         <source src={"https://nerby.com/wp-content/uploads/2021/01/Home_Facebook.mp4"} type="video/mp4" />
                     </video>
                     <a href="#" className={`${styles.explore} ${styles.exploreRight}`}>EXPLORE</a>
