@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lyzerbautista-portfolio/static/css/main.4376e12f.css",
-    "main.js": "/lyzerbautista-portfolio/static/js/main.984d23b4.js",
+    "main.css": "/lyzerbautista-portfolio/static/css/main.0bf0d5dc.css",
+    "main.js": "/lyzerbautista-portfolio/static/js/main.e336ec77.js",
     "static/js/787.99b8c74c.chunk.js": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js",
     "index.html": "/lyzerbautista-portfolio/index.html",
-    "main.4376e12f.css.map": "/lyzerbautista-portfolio/static/css/main.4376e12f.css.map",
-    "main.984d23b4.js.map": "/lyzerbautista-portfolio/static/js/main.984d23b4.js.map",
+    "main.0bf0d5dc.css.map": "/lyzerbautista-portfolio/static/css/main.0bf0d5dc.css.map",
+    "main.e336ec77.js.map": "/lyzerbautista-portfolio/static/js/main.e336ec77.js.map",
     "787.99b8c74c.chunk.js.map": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4376e12f.css",
-    "static/js/main.984d23b4.js"
+    "static/css/main.0bf0d5dc.css",
+    "static/js/main.e336ec77.js"
   ]
 }
