@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lyzerbautista-portfolio/static/css/main.ecc99b03.css",
+    "main.js": "/lyzerbautista-portfolio/static/js/main.c3039924.js",
+    "static/js/787.99b8c74c.chunk.js": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js",
+    "index.html": "/lyzerbautista-portfolio/index.html",
+    "main.ecc99b03.css.map": "/lyzerbautista-portfolio/static/css/main.ecc99b03.css.map",
+    "main.c3039924.js.map": "/lyzerbautista-portfolio/static/js/main.c3039924.js.map",
+    "787.99b8c74c.chunk.js.map": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecc99b03.css",
+    "static/js/main.c3039924.js"
+  ]
+}
