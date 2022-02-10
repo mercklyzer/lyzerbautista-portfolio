@@ -37,7 +37,7 @@ body {
 .projects-container{
   display: flex;
   height: 100vh;
-  height: -webkit-fill-available;
+  min-height: -webkit-fill-available;
 }
 
 @media screen and (max-width: 1600px) {
