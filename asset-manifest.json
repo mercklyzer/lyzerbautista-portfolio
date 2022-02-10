@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lyzerbautista-portfolio/static/css/main.0bf0d5dc.css",
+    "main.css": "/lyzerbautista-portfolio/static/css/main.5c61b1aa.css",
     "main.js": "/lyzerbautista-portfolio/static/js/main.b8c0b1b0.js",
     "static/js/787.99b8c74c.chunk.js": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js",
     "index.html": "/lyzerbautista-portfolio/index.html",
-    "main.0bf0d5dc.css.map": "/lyzerbautista-portfolio/static/css/main.0bf0d5dc.css.map",
+    "main.5c61b1aa.css.map": "/lyzerbautista-portfolio/static/css/main.5c61b1aa.css.map",
     "main.b8c0b1b0.js.map": "/lyzerbautista-portfolio/static/js/main.b8c0b1b0.js.map",
     "787.99b8c74c.chunk.js.map": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bf0d5dc.css",
+    "static/css/main.5c61b1aa.css",
     "static/js/main.b8c0b1b0.js"
   ]
 }
