@@ -6,6 +6,8 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 const About = props => {
     const aboutRef = useRef()
 
+    console.log(props.projectHeight);
+
     
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
@@ -13,7 +15,7 @@ const About = props => {
         gsap.to(aboutRef.current, {
             scrollTrigger: {
                 trigger: aboutRef.current,
-                start: "bottom top",
+                start: `+${props.projectHeight} center`,
                 markers: true
             },
             opacity: 1,

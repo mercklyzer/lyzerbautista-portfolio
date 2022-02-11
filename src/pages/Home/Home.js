@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
 import Project from "../../components/Project/Project";
 import styles from './home.module.css'
@@ -41,12 +41,12 @@ const Home = props => {
     return (
         <div>
             <HomeHeader />
-            <div className="projects-container" style={{width: '400vw'}}>
+            <div className="projects-container" style={{width: '400vw', border: '2px solid red'}}>
                 <Project ref={project1}/>
                 <Project ref={project2}/>
                 <Project ref={project3}/>
             </div>
-            <About />
+            <About projectHeight={width*2}/>
         </div>
     )
 }
