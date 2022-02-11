@@ -27,10 +27,11 @@ const Home = props => {
             ease: "none",
             scrollTrigger: {
               trigger: ".projects-container",
+              start: "8% top",
               pin: true,
               scrub: 1,
               snap: 1 / (projects.length - 1),
-            //   markers: true,
+              markers: true,
               end: `+=${projects.length > 2? width*(projects.length - 1) : width}`,
             }
           });
