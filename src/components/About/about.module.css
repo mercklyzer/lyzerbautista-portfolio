@@ -33,12 +33,14 @@
 
 .containerRight img {
     max-width: 50%;
+    opacity: 0;
 }
 
 .description{
     font-family: var(--regular-font);
     color: var(--white);
     font-size: var(--font-size-md);
+    opacity: 0;
 }
 
 .resume{
@@ -49,6 +51,8 @@
 
     margin-top: 80px;
     display: block;
+
+    opacity: 0;
 }
 
 @media screen and (max-width: 1132px) {
