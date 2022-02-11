@@ -15,7 +15,7 @@ const HomeHeader = props => {
                 trigger: homeHeaderRef.current,
                 start: "1% top",
 
-                markers: true,
+                // markers: true,
                 scrub: 1,
             },
             x: '-100%',

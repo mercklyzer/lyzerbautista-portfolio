@@ -5,6 +5,7 @@ import styles from './home.module.css'
 import gsap from 'gsap'
 import ScrollTrigger from "gsap/ScrollTrigger";
 import useWindowDimensions from '../../hooks/useWindowDimensions'
+import About from "../../components/About/About";
 
 const Home = props => {
     const {width, height} = useWindowDimensions()
@@ -31,7 +32,7 @@ const Home = props => {
               pin: true,
               scrub: 1,
               snap: 1 / (projects.length - 1),
-              markers: true,
+            //   markers: true,
               end: `+=${projects.length > 2? width*(projects.length - 1) : width}`,
             }
           });
@@ -45,7 +46,7 @@ const Home = props => {
                 <Project ref={project2}/>
                 <Project ref={project3}/>
             </div>
-            <div className="about" style={{height: '50vh', border: '2px solid red'}}></div>
+            <About />
         </div>
     )
 }

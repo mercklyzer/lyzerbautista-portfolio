@@ -1,0 +1,47 @@
+.about{
+    background-color: var(--black);
+    padding: 100px 75px 100px 75px;
+    opacity: 0;
+}
+
+.aboutHeader{
+    font-family: var(--regular-font);
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight-xl);
+    color: var(--black);
+
+    margin-bottom: 40px;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.container{
+    display: flex;
+}
+
+.containerLeft, .containerRight{
+    width: 50%;
+}
+
+.containerRight{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description{
+    font-family: var(--regular-font);
+    color: var(--white);
+    font-size: var(--font-size-md);
+    /* font-size: var(--font-weight-md); */
+}
+
+.resume{
+    font-family: var(--regular-font);
+    font-size: var(--font-size-s);
+    font-weight: var(--font-weight-xs);
+    color: var(--white);
+
+    margin-top: 80px;
+    display: block;
+}
