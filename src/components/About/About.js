@@ -5,28 +5,35 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 
 const About = props => {
     const aboutRef = useRef()
+    const aboutHeaderRef = useRef()
 
     console.log(props.projectHeight);
-
     
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
 
-        gsap.to(aboutRef.current, {
+        const t1 = gsap.timeline()
+        console.log(t1);
+
+        t1.to(aboutRef.current, {
             scrollTrigger: {
                 trigger: aboutRef.current,
                 start: `+${props.projectHeight} center`,
-                markers: true
+                // markers: true
             },
             opacity: 1,
-            duration: 4
+            duration: 1
+        })
+        .to(aboutHeaderRef, {
+            opacity: 1,
+            duration: 0.5
         })
     }, [])
 
 
     return (
         <section className={styles.about} ref={aboutRef}>
-            <div className={styles.aboutHeader}>ABOUT</div>
+            <div className={styles.aboutHeader} ref={aboutHeaderRef}>ABOUT</div>
             <div className={styles.container}>
                 <div className={styles.containerLeft}>
                     <div className={styles.description}>

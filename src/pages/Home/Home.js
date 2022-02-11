@@ -41,7 +41,7 @@ const Home = props => {
     return (
         <div>
             <HomeHeader />
-            <div className="projects-container" style={{width: '400vw', border: '2px solid red'}}>
+            <div className="projects-container" style={{width: '400vw'}}>
                 <Project ref={project1}/>
                 <Project ref={project2}/>
                 <Project ref={project3}/>

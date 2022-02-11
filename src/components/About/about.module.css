@@ -1,5 +1,4 @@
 .about{
-    border: 2px solid red;
     background-color: var(--black);
     padding: 100px 75px 100px 75px;
     opacity: 0;
@@ -12,6 +11,7 @@
     color: var(--black);
 
     margin-bottom: 40px;
+    opacity: 0;
 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
@@ -28,13 +28,17 @@
 .containerRight{
     display: flex;
     justify-content: flex-end;
+    /* border: 2px solid red; */
+}
+
+.containerRight img {
+    max-width: 50%;
 }
 
 .description{
     font-family: var(--regular-font);
     color: var(--white);
     font-size: var(--font-size-md);
-    /* font-size: var(--font-weight-md); */
 }
 
 .resume{
@@ -45,4 +49,46 @@
 
     margin-top: 80px;
     display: block;
+}
+
+@media screen and (max-width: 1132px) {
+    .containerRight img{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .containerRight img{
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+@media screen and (max-width: 794px){
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .containerLeft, .containerRight{
+        justify-content: center;
+        align-content: center;
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    .containerLeft{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    .about{
+        padding: 80px 60px 80px 60px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .about {    
+        padding: 60px 20px 60px 20px;
+    }
 }
