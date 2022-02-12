@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react"
 import styles from './about.module.css'
 import gsap from "gsap"
 import ScrollTrigger from "gsap/ScrollTrigger"
+import Distort from "../Distort/Distort"
 
 const About = props => {
     const aboutRef = useRef()
@@ -91,7 +92,8 @@ const About = props => {
 
                 </div>
                 <div className={styles.containerRight}>
-                    <img src={require('../../assets/about-me-white.png')} ref={imageRef} />
+                    <Distort ref={imageRef}/>
+                    {/* <img src={require('../../assets/about-me-white.png')} ref={imageRef} /> */}
                 </div>
             </div>
         </section>

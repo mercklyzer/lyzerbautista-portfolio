@@ -6,6 +6,7 @@ import gsap from 'gsap'
 import ScrollTrigger from "gsap/ScrollTrigger";
 import useWindowDimensions from '../../hooks/useWindowDimensions'
 import About from "../../components/About/About";
+import Distort from "../../components/Distort/Distort";
 
 const Home = props => {
     const {width, height} = useWindowDimensions()
