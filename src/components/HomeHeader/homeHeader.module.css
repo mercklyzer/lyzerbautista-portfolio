@@ -84,6 +84,7 @@ h1{
 
 .socialLink{
     color: var(--light-grey);
+    font-family: var(--regular-font);
     text-decoration: none;
     font-weight: 500;
     position: relative;
