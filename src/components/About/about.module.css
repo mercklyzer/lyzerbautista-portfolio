@@ -5,6 +5,7 @@
 }
 
 .aboutHeader{
+    display: inline-block;
     font-family: var(--regular-font);
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-xl);
@@ -14,8 +15,24 @@
     opacity: 0;
 
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: var(--white);
+
+    background: linear-gradient(to right, transparent 50%, var(--white) 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+    animation-name: aboutAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes aboutAnimation {
+    0% {background-position: 0%;}
+    50% {background-position: -100%;}
+    100% {background-position: 0%;}
+  }
 
 .container{
     display: flex;
