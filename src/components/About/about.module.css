@@ -61,6 +61,10 @@
     padding-right: 40px;
 }
 
+.description:hover{
+    color: var(--white);
+}
+
 .resume{
     font-family: var(--regular-font);
     font-size: var(--font-size-s);

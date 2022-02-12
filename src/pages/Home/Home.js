@@ -33,7 +33,6 @@ const Home = props => {
               start: "8% top",
               pin: true,
               scrub: 1,
-              snap: 1 / (projects.length - 1),
               markers: true,
               end: `+=${projects.length > 2? width*(projects.length - 1) : width}`,
             }
@@ -49,7 +48,7 @@ const Home = props => {
                 <Project ref={project3}/>
             </div>
             <About projectHeight={width*2}/>
-            <Contact />
+            <Contact projectHeight={width*2}/>
         </div>
     )
 }
