@@ -13,9 +13,14 @@ const DisableLandscape = props => {
         document.body.style.overflow = 'auto'
     }
 
-    const el = width > height && height < 500? 
+    const el = width > height && height < 800? 
     <div className={styles.container}>
-        PLEASE ROTATE YOUR PHONE
+        <div className={styles.containerLeft}>
+            <img src={require('../../assets/me-bw.jpg')} alt={'Lyzer in black and white'} />
+        </div>
+        <div className={styles.containerRight}>
+            PLEASE ROTATE YOUR PHONE VERTICALLY FOR BETTER EXPERIENCE.
+        </div>
     </div> : <></>
 
     return createPortal(

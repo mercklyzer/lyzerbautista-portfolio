@@ -1,4 +1,7 @@
+@import '../../index.css';
+
 .container{
+    padding: 5vh 10vw;
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -8,6 +11,32 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    border: 2px solid red;
     z-index: 999;
+}
+
+.container > *{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.containerLeft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containerLeft img{
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+}
+
+.containerRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-family: var(--regular-font);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-md);
 }

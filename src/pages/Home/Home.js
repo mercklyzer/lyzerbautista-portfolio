@@ -57,7 +57,7 @@ const Home = props => {
                 <Project ref={project2}
                     title={'Trailyzer'} 
                     subtitle={'ReactJS'} 
-                    description={'A web application that provides you trailer of your favorite movies whose UI is inspired from Netflix.'} 
+                    description={'A web application whose UI is inspired from Netflix that provides you trailer of your favorite movies.'} 
                     video={TrailyzerVideo}
                     redirectTo={'https://mercklyzer.github.io/trailyzer/'} 
                 />

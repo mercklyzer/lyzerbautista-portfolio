@@ -13,7 +13,7 @@ const HomeHeader = props => {
         gsap.to(overlayRef.current, {
             scrollTrigger: {
                 trigger: homeHeaderRef.current,
-                start: "1% top",
+                start: "top top",
 
                 // markers: true,
                 scrub: 1,
