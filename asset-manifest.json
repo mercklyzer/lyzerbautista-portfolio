@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/lyzerbautista-portfolio/static/css/main.231e5bf0.css",
-    "main.js": "/lyzerbautista-portfolio/static/js/main.1dd08dbb.js",
+    "main.js": "/lyzerbautista-portfolio/static/js/main.27dad9e6.js",
     "static/js/787.99b8c74c.chunk.js": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js",
-    "static/media/Trailyzer.gif": "/lyzerbautista-portfolio/static/media/Trailyzer.79299eff75a82a3aba59.gif",
-    "static/media/Lyz-Co.gif": "/lyzerbautista-portfolio/static/media/Lyz-Co.c1172b5545ea3a0f35bb.gif",
-    "static/media/DCS-Walking-Simulator.gif": "/lyzerbautista-portfolio/static/media/DCS-Walking-Simulator.bd4297f31ac3c8b4368d.gif",
-    "static/media/Brainly.gif": "/lyzerbautista-portfolio/static/media/Brainly.7be1d5e83c4ca1d317e0.gif",
-    "static/media/Brainly.mp4": "/lyzerbautista-portfolio/static/media/Brainly.2ffe9dc11c20aa7a6807.mp4",
+    "static/media/Trailyzer.mp4": "/lyzerbautista-portfolio/static/media/Trailyzer.3c5ef27367d36544f0ae.mp4",
+    "static/media/Lyz-Co.mp4": "/lyzerbautista-portfolio/static/media/Lyz-Co.17e44fdf4f8c098d8516.mp4",
+    "static/media/DCS-Walking-Simulator.mp4": "/lyzerbautista-portfolio/static/media/DCS-Walking-Simulator.0bb213a3429d838ff90a.mp4",
+    "static/media/Brainly.mp4": "/lyzerbautista-portfolio/static/media/Brainly.a16099f6f2f498bbc7b9.mp4",
     "static/media/about-me-white.png": "/lyzerbautista-portfolio/static/media/about-me-white.f9ca476c666b6b70b945.png",
     "static/media/about-me-maroon.png": "/lyzerbautista-portfolio/static/media/about-me-maroon.d70de93baa2ab9f33fd2.png",
-    "static/media/overlay.png": "/lyzerbautista-portfolio/static/media/overlay.1ded8f85e2166c01d695.png",
     "index.html": "/lyzerbautista-portfolio/index.html",
+    "static/media/overlay.png": "/lyzerbautista-portfolio/static/media/overlay.1ded8f85e2166c01d695.png",
     "main.231e5bf0.css.map": "/lyzerbautista-portfolio/static/css/main.231e5bf0.css.map",
-    "main.1dd08dbb.js.map": "/lyzerbautista-portfolio/static/js/main.1dd08dbb.js.map",
+    "main.27dad9e6.js.map": "/lyzerbautista-portfolio/static/js/main.27dad9e6.js.map",
     "787.99b8c74c.chunk.js.map": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.231e5bf0.css",
-    "static/js/main.1dd08dbb.js"
+    "static/js/main.27dad9e6.js"
   ]
 }
