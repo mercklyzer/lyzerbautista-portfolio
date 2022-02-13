@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/lyzerbautista-portfolio/static/css/main.062ed8a3.css",
-    "main.js": "/lyzerbautista-portfolio/static/js/main.79fc308d.js",
+    "main.js": "/lyzerbautista-portfolio/static/js/main.61c44d62.js",
     "static/js/787.99b8c74c.chunk.js": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js",
-    "static/media/Brainly.gif": "/lyzerbautista-portfolio/static/media/Brainly.7be1d5e83c4ca1d317e0.gif",
     "static/media/Brainly.mp4": "/lyzerbautista-portfolio/static/media/Brainly.2ffe9dc11c20aa7a6807.mp4",
     "static/media/about-me-white.png": "/lyzerbautista-portfolio/static/media/about-me-white.f9ca476c666b6b70b945.png",
     "static/media/about-me-maroon.png": "/lyzerbautista-portfolio/static/media/about-me-maroon.d70de93baa2ab9f33fd2.png",
     "static/media/overlay.png": "/lyzerbautista-portfolio/static/media/overlay.1ded8f85e2166c01d695.png",
     "index.html": "/lyzerbautista-portfolio/index.html",
     "main.062ed8a3.css.map": "/lyzerbautista-portfolio/static/css/main.062ed8a3.css.map",
-    "main.79fc308d.js.map": "/lyzerbautista-portfolio/static/js/main.79fc308d.js.map",
+    "main.61c44d62.js.map": "/lyzerbautista-portfolio/static/js/main.61c44d62.js.map",
     "787.99b8c74c.chunk.js.map": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.062ed8a3.css",
-    "static/js/main.79fc308d.js"
+    "static/js/main.61c44d62.js"
   ]
 }
