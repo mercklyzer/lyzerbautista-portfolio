@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lyzerbautista-portfolio/static/css/main.062ed8a3.css",
-    "main.js": "/lyzerbautista-portfolio/static/js/main.61c44d62.js",
+    "main.js": "/lyzerbautista-portfolio/static/js/main.0ed76e22.js",
     "static/js/787.99b8c74c.chunk.js": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js",
     "static/media/Brainly.mp4": "/lyzerbautista-portfolio/static/media/Brainly.2ffe9dc11c20aa7a6807.mp4",
     "static/media/about-me-white.png": "/lyzerbautista-portfolio/static/media/about-me-white.f9ca476c666b6b70b945.png",
@@ -9,11 +9,11 @@
     "static/media/overlay.png": "/lyzerbautista-portfolio/static/media/overlay.1ded8f85e2166c01d695.png",
     "index.html": "/lyzerbautista-portfolio/index.html",
     "main.062ed8a3.css.map": "/lyzerbautista-portfolio/static/css/main.062ed8a3.css.map",
-    "main.61c44d62.js.map": "/lyzerbautista-portfolio/static/js/main.61c44d62.js.map",
+    "main.0ed76e22.js.map": "/lyzerbautista-portfolio/static/js/main.0ed76e22.js.map",
     "787.99b8c74c.chunk.js.map": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.062ed8a3.css",
-    "static/js/main.61c44d62.js"
+    "static/js/main.0ed76e22.js"
   ]
 }
