@@ -1,8 +1,7 @@
 import React, { forwardRef } from "react"
 import styles from './project.module.css'
-import BrainlyVideo from '../../assets/Brainly.mp4'
 
-const Project = forwardRef( ({title, subtitle, description, redirectTo, gif}, ref) => {
+const Project = forwardRef( ({title, subtitle, description, redirectTo, video}, ref) => {
     
     return (
         <section className={styles.project} ref={ref}>
@@ -15,7 +14,9 @@ const Project = forwardRef( ({title, subtitle, description, redirectTo, gif}, re
                     <a href={redirectTo} target={"_blank"} className={`${styles.explore} ${styles.exploreLeft}`}>EXPLORE</a>
                 </div>
                 <div className={styles.contentRight} onClick={() => window.open(redirectTo, "_blank")}>
-                    <img src={gif} style={{height: 'auto%', width: '100%'}}/>
+                    <video playsInline={true} muted={true} autoPlay={true} loop={true}>
+                        <source src={video} type="video/mp4" />
+                    </video>
                     <a href={redirectTo} target={"_blank"} className={`${styles.explore} ${styles.exploreRight}`}>EXPLORE</a>
                 </div>
             </div>

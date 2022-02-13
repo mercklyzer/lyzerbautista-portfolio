@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react"
 import styles from './about.module.css'
 import gsap from "gsap"
 import ScrollTrigger from "gsap/ScrollTrigger"
-import Distort from "../Distort/Distort"
+// import Distort from "../Distort/Distort"
 
 const About = props => {
     const aboutRef = useRef()
@@ -65,18 +65,18 @@ const About = props => {
             delay: 1.5
         })
 
-        gsap.from(imageRef.current, {
-            scrollTrigger,
-            xPercent: 20,
-            duration: 0.5,
-            delay: 2
-        })
-        gsap.to(imageRef.current, {
-            scrollTrigger,
-            opacity: 1,
-            duration: 0.5,
-            delay: 2
-        })
+        // gsap.from(imageRef.current, {
+        //     scrollTrigger,
+        //     xPercent: 20,
+        //     duration: 0.5,
+        //     delay: 2
+        // })
+        // gsap.to(imageRef.current, {
+        //     scrollTrigger,
+        //     opacity: 1,
+        //     duration: 0.5,
+        //     delay: 2
+        // })
     }, [])
 
 
@@ -92,7 +92,7 @@ const About = props => {
 
                 </div>
                 <div className={styles.containerRight}>
-                    <Distort ref={imageRef}/>
+                    {/* <Distort ref={imageRef}/> */}
                     {/* <img src={require('../../assets/about-me-white.png')} ref={imageRef} /> */}
                 </div>
             </div>
