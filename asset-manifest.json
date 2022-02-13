@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/lyzerbautista-portfolio/static/css/main.518cc748.css",
-    "main.js": "/lyzerbautista-portfolio/static/js/main.ed48be6d.js",
+    "main.js": "/lyzerbautista-portfolio/static/js/main.d9fdb446.js",
     "static/js/787.99b8c74c.chunk.js": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js",
-    "static/media/Trailyzer.gif": "/lyzerbautista-portfolio/static/media/Trailyzer.79299eff75a82a3aba59.gif",
-    "static/media/Lyz-Co.gif": "/lyzerbautista-portfolio/static/media/Lyz-Co.c1172b5545ea3a0f35bb.gif",
-    "static/media/DCS-Walking-Simulator.gif": "/lyzerbautista-portfolio/static/media/DCS-Walking-Simulator.bd4297f31ac3c8b4368d.gif",
+    "static/media/Lyz-Co.mp4": "/lyzerbautista-portfolio/static/media/Lyz-Co.56648e546645e0d1b9c1.mp4",
+    "static/media/Trailyzer.mp4": "/lyzerbautista-portfolio/static/media/Trailyzer.2283d021ac8c894e83a3.mp4",
+    "static/media/DCS-Walking-Simulator.mp4": "/lyzerbautista-portfolio/static/media/DCS-Walking-Simulator.4228631946f4fad1012f.mp4",
     "static/media/Brainly.mp4": "/lyzerbautista-portfolio/static/media/Brainly.2ffe9dc11c20aa7a6807.mp4",
     "index.html": "/lyzerbautista-portfolio/index.html",
     "main.518cc748.css.map": "/lyzerbautista-portfolio/static/css/main.518cc748.css.map",
-    "main.ed48be6d.js.map": "/lyzerbautista-portfolio/static/js/main.ed48be6d.js.map",
+    "main.d9fdb446.js.map": "/lyzerbautista-portfolio/static/js/main.d9fdb446.js.map",
     "787.99b8c74c.chunk.js.map": "/lyzerbautista-portfolio/static/js/787.99b8c74c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.518cc748.css",
-    "static/js/main.ed48be6d.js"
+    "static/js/main.d9fdb446.js"
   ]
 }
