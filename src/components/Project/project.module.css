@@ -68,6 +68,7 @@
 .contentRight{
     height: 100%;
     flex: 0 0 55%;
+    cursor: pointer;
 }
 
 video{

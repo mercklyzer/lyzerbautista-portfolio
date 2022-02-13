@@ -24,22 +24,16 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.5s ease-out;
-    /* animation-name: aboutAnimation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite; */
-    /* transition: 4s; */
-    /* background-position: 0%; */
+    animation-name: headerAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
-.header.animateHeader{
-    background-position: -100%;
-}
-
-/* @keyframes aboutAnimation {
+@keyframes headerAnimation {
     0% {background-position: 0%;}
     50% {background-position: -100%;}
     100% {background-position: 0%;}
-} */
+}
 
 .emailContainer, .socialLinksContainer{
     display: flex;

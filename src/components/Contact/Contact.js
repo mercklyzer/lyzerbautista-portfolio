@@ -9,29 +9,25 @@ const Contact = props => {
     const socialLinksRef = useRef()
     const copyrightRef = useRef()
 
-    const [animateHeader, setAnimateHeader] = useState(false)
-
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger)
 
         const scrollTrigger = {
             trigger: contactRef.current,
             start: `+${props.projectHeight} center`,
-            markers: true
         }
 
         gsap.from(contactRef.current, {
             scrollTrigger,
             yPercent: 50,
             duration: 0.5,
-            delay: 0.5
+            delay: 0.5,
         })
         gsap.to(contactRef.current, {
             scrollTrigger,
             opacity: 1,
             duration: 0.5,
             delay: 0.5,
-            onComplete: () => setAnimateHeader(true)
         })
 
         gsap.from(emailRef.current, {
@@ -76,7 +72,7 @@ const Contact = props => {
 
     return (
         <section className={styles.contact}>
-            <div className={`${styles.header} ${animateHeader? styles.animateHeader : ''}`} ref={contactRef}>GET IN TOUCH</div>
+            <div className={`${styles.header}`} ref={contactRef}>GET IN TOUCH</div>
             <div className={styles.emailContainer} ref={emailRef}>
                 <a className={styles.email} href="mailto:mercklyzer@gmail.com">mercklyzer@gmail.com</a>
             </div>
