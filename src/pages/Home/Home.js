@@ -53,6 +53,7 @@ const Home = props => {
                     description={'A platform where users can ask questions regarding their studies and get feedback and answers from other users.'} 
                     video={BrainlyVideo} 
                     redirectTo={'http://brainly-web.s3-website-ap-southeast-1.amazonaws.com/'} 
+                    sourceCode={'https://github.com/mercklyzer/brainly-frontend'}
                 />
                 <Project ref={project2}
                     title={'Trailyzer'} 
@@ -60,6 +61,7 @@ const Home = props => {
                     description={'A web application whose UI is inspired from Netflix that provides you trailer of your favorite movies.'} 
                     video={TrailyzerVideo}
                     redirectTo={'https://mercklyzer.github.io/trailyzer/'} 
+                    sourceCode={'https://github.com/mercklyzer/trailyzer'}
                 />
                 <Project ref={project3}
                     title={'Lyz-Co'} 
@@ -67,6 +69,7 @@ const Home = props => {
                     description={'An unofficial portfolio of an accounting firm located in the heart of Rockwell, Philippines.'} 
                     video={LyzCoVideo}
                     redirectTo={'https://mercklyzer.github.io/Lyz-Co/'} 
+                    sourceCode={'https://github.com/mercklyzer/Lyz-Co'}
                 />
                 <Project ref={project4}
                     title={'DCS Walking Simulator'} 
@@ -74,6 +77,7 @@ const Home = props => {
                     description={'DCS Walking Simulator is a desktop game that familiarizes students of University of the Philippines Diliman to the DCS building. To access, use the password "misskonakatip".'} 
                     video={DCSWalkingSimulatorVideo}
                     redirectTo={'https://snickerdu.itch.io/dcs-walkthrough-simulator'} 
+                    sourceCode={'https://github.com/plmontecillo/DCS-Walkthrough-Simulator'}
                 />
             </div>
             <About projectHeight={width*3}/>

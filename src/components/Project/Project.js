@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react"
 import styles from './project.module.css'
 
-const Project = forwardRef( ({title, subtitle, description, redirectTo, video}, ref) => {
+const Project = forwardRef( ({title, subtitle, description, redirectTo, video, sourceCode}, ref) => {
     
     return (
         <section className={styles.project} ref={ref}>
@@ -11,13 +11,23 @@ const Project = forwardRef( ({title, subtitle, description, redirectTo, video}, 
                     <div className={styles.title}>{title}</div>
                     <div className={styles.subtitle}>{subtitle}</div>
                     <div className={styles.description}>{description}</div>
-                    <a href={redirectTo} target={"_blank"} className={`${styles.explore} ${styles.exploreLeft}`}>EXPLORE</a>
+                    <div className={styles.exploreLeft}>
+                        <a href={redirectTo} target={"_blank"} className={`${styles.explore}`}>EXPLORE</a>
+                    </div>
+                    <div className={styles.exploreLeft}>
+                        <a href={sourceCode} target={"_blank"} className={`${styles.explore}`}>SOURCE CODE</a>
+                    </div>
                 </div>
                 <div className={styles.contentRight} onClick={() => window.open(redirectTo, "_blank")}>
                     <video playsInline={true} muted={true} autoPlay={true} loop={true}>
                         <source src={video} type="video/mp4" />
                     </video>
-                    <a href={redirectTo} target={"_blank"} className={`${styles.explore} ${styles.exploreRight}`}>EXPLORE</a>
+                    <div className={styles.exploreRight}>
+                        <a href={redirectTo} target={"_blank"} className={`${styles.explore}`}>EXPLORE</a>
+                    </div>
+                    <div className={styles.exploreRight}>
+                        <a href={sourceCode} target={"_blank"} className={`${styles.explore}`}>SOURCE CODE</a>
+                    </div>
                 </div>
             </div>
         </section>
