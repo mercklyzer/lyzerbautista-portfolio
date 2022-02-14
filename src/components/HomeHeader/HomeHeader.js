@@ -14,7 +14,7 @@ const HomeHeader = props => {
             scrollTrigger: {
                 trigger: homeHeaderRef.current,
                 start: "top top",
-
+                end: "50%",
                 // markers: true,
                 scrub: 1,
             },
@@ -24,7 +24,8 @@ const HomeHeader = props => {
         gsap.to(homeHeaderRef.current, {
             scrollTrigger: {
                 trigger: homeHeaderRef.current,
-                start: "1% top",
+                start: "top top",
+                end: "50%",
                 pin:true,
                 // markers: true,
                 scrub: 1,

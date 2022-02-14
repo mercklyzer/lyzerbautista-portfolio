@@ -1,6 +1,7 @@
 @import '../../index.css';
 
 .homeHeader {
+    margin-top: 0px;
     background-color: var(--white);
     padding: 220px 75px 0px 75px;
     position: relative;
