@@ -83,7 +83,7 @@ h1{
 }
 
 .socialLink{
-    color: var(--light-grey);
+    color: #a1a1a1;
     font-family: var(--regular-font);
     text-decoration: none;
     font-weight: 500;
@@ -103,11 +103,11 @@ h1{
     left: -104%;
     width: 100%;
     transition: 0.8s;
-    border: 1px solid var(--dark-grey);
+    border: 1px solid #d1cece;
 }
 
 .socialLink:hover{
-    color: var(--light-grey);
+    color: #d1cece;
 }
 
 .socialLink:hover::after{

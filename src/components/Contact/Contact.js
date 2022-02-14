@@ -78,9 +78,9 @@ const Contact = props => {
             </div>
             <div className={styles.socialLinksContainer} ref={socialLinksRef}>
                 <div className={styles.socialLinks}>
-                    <a href="#" className={styles.socialLink}>LinkedIn</a>
                     <a href="#" className={styles.socialLink}>GitHub</a>
                     <a href="#" className={styles.socialLink}>Twitter</a>
+                    <a href="#" className={styles.socialLink}>LinkedIn</a>
                 </div>
             </div>
             <div className={styles.copyright} ref={copyrightRef}>© Lyzer Bautista. All Rights Reserved.</div>

@@ -64,19 +64,6 @@ const About = props => {
             duration: 0.5,
             delay: 1.5
         })
-
-        // gsap.from(imageRef.current, {
-        //     scrollTrigger,
-        //     xPercent: 20,
-        //     duration: 0.5,
-        //     delay: 2
-        // })
-        // gsap.to(imageRef.current, {
-        //     scrollTrigger,
-        //     opacity: 1,
-        //     duration: 0.5,
-        //     delay: 2
-        // })
     }, [])
 
 
