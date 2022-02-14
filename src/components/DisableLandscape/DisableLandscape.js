@@ -19,7 +19,8 @@ const DisableLandscape = props => {
             <img src={require('../../assets/me-bw.jpg')} alt={'Lyzer in black and white'} />
         </div>
         <div className={styles.containerRight}>
-            PLEASE ROTATE YOUR PHONE VERTICALLY FOR BETTER EXPERIENCE.
+            FOR BETTER EXPERIENCE, IF YOU ARE ON MOBILE PHONE, PLEASE ROTATE IT VERTICALLY.
+            IF YOU ARE ON LAPTOP, PLEASE ZOOM OUT.
         </div>
     </div> : <></>
 
