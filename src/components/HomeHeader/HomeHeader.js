@@ -54,9 +54,10 @@ const HomeHeader = props => {
                         Get in touch for availability. <br />
                     </div>
                     <div className={styles.socialLinksContainer}>
-                        <a className={styles.socialLink} href="#">GitHub</a>
-                        <a className={styles.socialLink} href="#">Twitter</a>
-                        <a className={styles.socialLink} href="#">LinkedIn</a>
+                        <a className={styles.socialLink} href="https://github.com/mercklyzer" target="_blank">GitHub</a>
+                        <a className={styles.socialLink} href="https://twitter.com/LyzerBautista" target="_blank">Twitter</a>
+                        <a className={styles.socialLink} href="https://www.linkedin.com/in/lyzer-merck-bautista/" target="_blank">LinkedIn</a>
+                        <a className={styles.socialLink} href="#">Resume</a>
                     </div>
                 </div>
                 

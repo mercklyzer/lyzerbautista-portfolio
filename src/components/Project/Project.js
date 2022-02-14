@@ -26,7 +26,7 @@ const Project = forwardRef( ({title, subtitle, description, redirectTo, video, s
                         <a href={redirectTo} target={"_blank"} className={`${styles.explore}`}>EXPLORE</a>
                     </div>
                     <div className={styles.exploreRight}>
-                        <a href={sourceCode} target={"_blank"} className={`${styles.explore}`}>SOURCE CODE</a>
+                        <a href={sourceCode} target={"_blank"} className={`${styles.explore}`}>CHECK CODE</a>
                     </div>
                 </div>
             </div>
